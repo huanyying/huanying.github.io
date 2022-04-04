@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    
+  <url>
+    <loc>http://example.com/2022/04/04/git%25E6%258E%25A8%25E9%2580%2581/</loc>
+    <lastmod>2022-04-04T07:47:04.634Z</lastmod>
+    <data>
+        <display>
+        <title>git推送</title>
+        <pubTime>2022-04-04T07:44:57.000Z</pubTime>
+        
+        <tag>博客 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://example.com/2022/04/03/%25E5%2590%2590%25E6%25A7%25BD/</loc>
+    <lastmod>2022-04-03T12:15:06.835Z</lastmod>
+    <data>
+        <display>
+        <title>吐槽</title>
+        <pubTime>2022-04-03T10:46:02.000Z</pubTime>
+        
+        <tag>生活 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://example.com/2022/04/02/%25E6%2588%2591%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E5%25A4%25A9/</loc>
+    <lastmod>2022-04-03T12:14:57.565Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2022-04-02T12:35:47.642Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://example.com/2022/04/03/wc/</loc>
+    <lastmod>2022-04-03T12:14:49.301Z</lastmod>
+    <data>
+        <display>
+        <title>文章命令</title>
+        <pubTime>2022-04-02T16:19:51.000Z</pubTime>
+        
+        <tag>博客 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
