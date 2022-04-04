@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://huanyying.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://huanyying.github.io/"/>
   <updated>2022-04-04T07:47:04.634Z</updated>
-  <id>http://example.com/</id>
+  <id>https://huanyying.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>git推送</title>
-    <link href="http://example.com/2022/04/04/git%E6%8E%A8%E9%80%81/"/>
-    <id>http://example.com/2022/04/04/git%E6%8E%A8%E9%80%81/</id>
+    <link href="https://huanyying.github.io/2022/04/04/git-tui-song/"/>
+    <id>https://huanyying.github.io/2022/04/04/git-tui-song/</id>
     <published>2022-04-04T07:44:57.000Z</published>
     <updated>2022-04-04T07:47:04.634Z</updated>
     
-    <content type="html"><![CDATA[<p>Hexo部署过程中可能会出现错误</p><p>解决方式一：</p><p>##进入站点根目录<br>cd &#x2F;usr&#x2F;local&#x2F;src&#x2F;hexo&#x2F;hanyubolg&#x2F;</p><p>##删除git提交内容文件夹<br>rm -rf .deploy_git&#x2F;</p><p>##执行<br>git config –global core.autocrlf false</p><p>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p><p>解决方式二：有可能是你的git repo配置地址不正确,可以将http方式变更为ssh方式</p><p>##进入站点根目录<br>cd &#x2F;usr&#x2F;local&#x2F;src&#x2F;hexo&#x2F;hanyubolg&#x2F;</p><p>##删除git提交内容文件夹<br>vim _config.yml</p><p>##修改<br>deploy:</p><p>type: git</p><p>repo: <a href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a> -&gt; <a href="mailto:&#x67;&#x69;&#x74;&#64;&#x67;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;">&#x67;&#x69;&#x74;&#64;&#x67;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;</a>:a956551943&#x2F;weixiaohui.github.io.git</p><p>branch: master</p><p>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p><p>解决方式三：不建议</p><p>##进入站点根目录<br>cd &#x2F;usr&#x2F;local&#x2F;src&#x2F;hexo&#x2F;hanyubolg&#x2F;</p><p>##进入depoly文件夹<br>cd .deploy_git&#x2F;</p><p>##强制推送<br>git push -f</p><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p>-<a href="https://blog.csdn.net/weixin_41256398/article/details/117994899">https://blog.csdn.net/weixin_41256398/article/details/117994899</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Hexo部署过程中可能会出现错误</p><p>解决方式一：</p><p>##进入站点根目录<br>cd &#x2F;usr&#x2F;local&#x2F;src&#x2F;hexo&#x2F;hanyubolg&#x2F;</p><p>##删除git提交内容文件夹<br>rm -rf .deploy_git&#x2F;</p><p>##执行<br>git config –global core.autocrlf false</p><p>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p><p>解决方式二：有可能是你的git repo配置地址不正确,可以将http方式变更为ssh方式</p><p>##进入站点根目录<br>cd &#x2F;usr&#x2F;local&#x2F;src&#x2F;hexo&#x2F;hanyubolg&#x2F;</p><p>##删除git提交内容文件夹<br>vim _config.yml</p><p>##修改<br>deploy:</p><p>type: git</p><p>repo: <a href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a> -&gt; <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#109;</a>:a956551943&#x2F;weixiaohui.github.io.git</p><p>branch: master</p><p>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p><p>解决方式三：不建议</p><p>##进入站点根目录<br>cd &#x2F;usr&#x2F;local&#x2F;src&#x2F;hexo&#x2F;hanyubolg&#x2F;</p><p>##进入depoly文件夹<br>cd .deploy_git&#x2F;</p><p>##强制推送<br>git push -f</p><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p>-<a href="https://blog.csdn.net/weixin_41256398/article/details/117994899">https://blog.csdn.net/weixin_41256398/article/details/117994899</a></p>]]></content>
     
     
       
@@ -37,14 +37,14 @@
     
     
     
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://huanyying.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>吐槽</title>
-    <link href="http://example.com/2022/04/03/%E5%90%90%E6%A7%BD/"/>
-    <id>http://example.com/2022/04/03/%E5%90%90%E6%A7%BD/</id>
+    <link href="https://huanyying.github.io/2022/04/03/tu-cao/"/>
+    <id>https://huanyying.github.io/2022/04/03/tu-cao/</id>
     <published>2022-04-03T10:46:02.000Z</published>
     <updated>2022-04-03T12:15:06.835Z</updated>
     
@@ -61,14 +61,14 @@
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://huanyying.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>文章命令</title>
-    <link href="http://example.com/2022/04/03/wc/"/>
-    <id>http://example.com/2022/04/03/wc/</id>
+    <link href="https://huanyying.github.io/2022/04/03/wc/"/>
+    <id>https://huanyying.github.io/2022/04/03/wc/</id>
     <published>2022-04-02T16:19:51.000Z</published>
     <updated>2022-04-03T12:14:49.301Z</updated>
     
@@ -83,14 +83,14 @@
     
     
     
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://huanyying.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="http://example.com/2022/04/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
-    <id>http://example.com/2022/04/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9/</id>
+    <link href="https://huanyying.github.io/2022/04/02/wo-de-di-yi-tian/"/>
+    <id>https://huanyying.github.io/2022/04/02/wo-de-di-yi-tian/</id>
     <published>2022-04-02T12:35:47.642Z</published>
     <updated>2022-04-03T12:14:57.565Z</updated>
     
