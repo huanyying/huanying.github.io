@@ -23,15 +23,16 @@
     <published>2022-04-04T07:44:57.000Z</published>
     <updated>2022-04-04T07:47:04.634Z</updated>
     
-    <content type="html"><![CDATA[<p>Hexo部署过程中可能会出现错误</p><p>解决方式一：</p><p>##进入站点根目录<br>cd &#x2F;usr&#x2F;local&#x2F;src&#x2F;hexo&#x2F;hanyubolg&#x2F;</p><p>##删除git提交内容文件夹<br>rm -rf .deploy_git&#x2F;</p><p>##执行<br>git config –global core.autocrlf false</p><p>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p><p>解决方式二：有可能是你的git repo配置地址不正确,可以将http方式变更为ssh方式</p><p>##进入站点根目录<br>cd &#x2F;usr&#x2F;local&#x2F;src&#x2F;hexo&#x2F;hanyubolg&#x2F;</p><p>##删除git提交内容文件夹<br>vim _config.yml</p><p>##修改<br>deploy:</p><p>type: git</p><p>repo: <a href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a> -&gt; <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#109;</a>:a956551943&#x2F;weixiaohui.github.io.git</p><p>branch: master</p><p>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p><p>解决方式三：不建议</p><p>##进入站点根目录<br>cd &#x2F;usr&#x2F;local&#x2F;src&#x2F;hexo&#x2F;hanyubolg&#x2F;</p><p>##进入depoly文件夹<br>cd .deploy_git&#x2F;</p><p>##强制推送<br>git push -f</p><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p>-<a href="https://blog.csdn.net/weixin_41256398/article/details/117994899">https://blog.csdn.net/weixin_41256398/article/details/117994899</a></p>]]></content>
-    
     
       
       
+        
+        
     <summary type="html">&lt;p&gt;Hexo部署过程中可能会出现错误&lt;/p&gt;
 &lt;p&gt;解决方式一：&lt;/p&gt;
-&lt;p&gt;##进入站点根目录&lt;br&gt;cd &amp;#x2F;usr&amp;#x2F;local&amp;#x2F;src&amp;#x2F;hexo&amp;#x2F;hanyubolg&amp;#x2F;&lt;/p&gt;
-&lt;p&gt;##删除git提交内容文件夹&lt;</summary>
+&lt;p&gt;##进入站点根目录&lt;br&gt;cd /usr/local/src/hexo/hanyubolg/&lt;/p&gt;
+&lt;p&gt;##删除git提交内容文件夹&lt;br&gt;rm -rf</summary>
+        
       
     
     
@@ -48,14 +49,15 @@
     <published>2022-04-03T10:46:02.000Z</published>
     <updated>2022-04-03T12:15:06.835Z</updated>
     
-    <content type="html"><![CDATA[<p>###项目</p><p>#链表排序太烦了</p>]]></content>
-    
     
       
       
+        
+        
     <summary type="html">&lt;p&gt;###项目&lt;/p&gt;
 &lt;p&gt;#链表排序太烦了&lt;/p&gt;
 </summary>
+        
       
     
     
@@ -72,12 +74,13 @@
     <published>2022-04-02T16:19:51.000Z</published>
     <updated>2022-04-03T12:14:49.301Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="如何写新博客并推送到远程"><a href="#如何写新博客并推送到远程" class="headerlink" title="如何写新博客并推送到远程"></a><em>如何写新博客并推送到远程</em></h2><p>通过上面的步骤后，你的博客应该就已经搭建成功，而且能通过 <code>https://用户名.github.io</code> 的方式进行访问了。接下来如果我们要发一篇新的博客内容，又应该怎么办呢？接下来就详细讲一下如何操作。</p><ol><li>首先进入博客所在文件夹，然后右键进入控制台，用如下命令进行创建新的文章；</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;博客标题名&quot;</span><br></pre></td></tr></table></figure><p><img src="E:\blog\source_posts\wc\v2-d19c72fe49f1cb2687f457ee21c1bf89_1440w.jpg" alt="img"></p><ol><li>接着在 <code>blog/source/_posts</code> 目录下应该就会有创建好的以文章标题名命名的 Markdown 文件；</li></ol><p><img src="E:\blog\source_posts\wc\v2-cfe4f9533f1a4b273fe4c179137ba040_1440w.jpg" alt="img"></p><ol><li>接着打开该文件，编写你自己想要的内容即可；</li></ol><p><img src="E:\blog\source_posts\wc\v2-16f32e9f3decef21acc165072bcc0bc2_1440w.jpg" alt="img"></p><ol><li>接着在控制台使用如下命令，将其推送到远程 GitHub 仓库，等过一会儿之后，访问即可看到刚才推送的新文章了！</li></ol><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p><img src="E:\blog\source_posts\wc\v2-123c782b1b044fd9e9a3d6199ded9de6_1440w.jpg" alt="img"></p>]]></content>
-    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;如何写新博客并推送到远程&quot;&gt;&lt;a href=&quot;#如何写新博客并推送到远程&quot; class=&quot;headerlink&quot; title=&quot;如何写新博客并推送到远程&quot;&gt;&lt;/a&gt;&lt;em&gt;如何写新博客并推送到远程&lt;/em&gt;&lt;/h2&gt;&lt;p&gt;通过上面的步骤后，你的博客应该就已经搭建成</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;如何写新博客并推送到远程&quot;&gt;&lt;a href=&quot;#如何写新博客并推送到远程&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -94,13 +97,14 @@
     <published>2022-04-02T12:35:47.642Z</published>
     <updated>2022-04-03T12:14:57.565Z</updated>
     
-    <content type="html"><![CDATA[<p>title: 我的第一天<br>date: 2022-04-02 20:35:47<br>tags: 博客</p><h2 id="1-写作"><a href="#1-写作" class="headerlink" title="1.写作"></a>1.写作</h2><h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;Write blog using markdown&quot;</span></span><br><span class="line"><span class="comment"># 或简写为</span></span><br><span class="line">hexo n <span class="string">&quot;Write blog using markdown&quot;</span></span><br></pre></td></tr></table></figure><p>该命令会在 _post 目录下生成文件 write-blog-using-markdown.md。可以在文件开头设置标题，时间、标签，分类等，如下：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">用</span> <span class="string">Markdown</span> <span class="string">写博客</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-08-13 09:22:18</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">blog</span></span><br><span class="line"><span class="attr">categories:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">tutorial</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown</span></span><br></pre></td></tr></table></figure><p>接着这部分就是文章的正文，遵循 Markdown 格式。</p><h2 id="2-博客的建立"><a href="#2-博客的建立" class="headerlink" title="2.博客的建立"></a>2.博客的建立</h2><h3 id="生成静态页面"><a href="#生成静态页面" class="headerlink" title="生成静态页面"></a>生成静态页面</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line"><span class="comment"># 或简写为</span></span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure><h3 id="启动网站"><a href="#启动网站" class="headerlink" title="启动网站"></a>启动网站</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br><span class="line"><span class="comment"># 或简写为</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><h3 id="博客的推送"><a href="#博客的推送" class="headerlink" title="博客的推送"></a>博客的推送</h3><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line"> hexo g</span><br><span class="line"> hexo d</span><br></pre></td></tr></table></figure><h2 id="3-主题"><a href="#3-主题" class="headerlink" title="3.主题"></a>3.主题</h2><h3 id="安装和启用"><a href="#安装和启用" class="headerlink" title="安装和启用"></a>安装和启用</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure><p>主题将会被下载到 theme&#x2F;next 目录下。</p><p>在站点配置文件 _config.yml 更换主题：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#theme: landscape    # 注释掉这一行，换成下面</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure><h5 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h5><p>-<a href="https://zhuanlan.zhihu.com/p/42426808">https://zhuanlan.zhihu.com/p/42426808</a></p><p>-<a href="http://www.codesheep.cn/">www.codesheep.cn</a></p><p>-<a href="https://blog.csdn.net/qq_43580193/article/details/117341489">https://blog.csdn.net/qq_43580193/article/details/117341489</a></p><p>-<a href="https://blog.csdn.net/weixin_42365530/article/details/107750003">https://blog.csdn.net/weixin_42365530/article/details/107750003</a></p><p>-<a href="https://lanweixiao.gitee.io/2020/08/18/hexo+gitee%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">https://lanweixiao.gitee.io/2020/08/18/hexo+gitee%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</a></p>]]></content>
-    
     
       
       
+        
+        
     <summary type="html">&lt;p&gt;title: 我的第一天&lt;br&gt;date: 2022-04-02 20:35:47&lt;br&gt;tags: 博客&lt;/p&gt;
-&lt;h2 id=&quot;1-写作&quot;&gt;&lt;a href=&quot;#1-写作&quot; class=&quot;headerlink&quot; title=&quot;1.写作&quot;&gt;&lt;/a&gt;1.写作&lt;/h2&gt;&lt;h3 </summary>
+&lt;h2 id=&quot;1-写作&quot;&gt;&lt;a href=&quot;#1-写作&quot; class=&quot;headerlink&quot; title=&quot;1.写作&quot;&gt;&lt;/a&gt;1.写作&lt;/h2&gt;&lt;h3</summary>
+        
       
     
     
