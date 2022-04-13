@@ -1,3 +1,7 @@
+https://huanyying.github.io/2022/04/05/cplus/
+https://huanyying.github.io/2022/04/04/c-yu-yan/
+https://huanyying.github.io/2022/04/03/tui-song-dao-github/
+https://huanyying.github.io/2022/04/04/bo-ke-bu-shu/
 https://huanyying.github.io/404/index.html
 https://huanyying.github.io/friends/index.html
 https://huanyying.github.io/contact/index.html
@@ -5,10 +9,8 @@ https://huanyying.github.io/about/index.html
 https://huanyying.github.io/tags/index.html
 https://huanyying.github.io/categories/index.html
 https://huanyying.github.io/books/index.html
-https://huanyying.github.io/2022/04/04/git-tui-song/
-https://huanyying.github.io/2022/04/03/tu-cao/
 https://huanyying.github.io/2022/04/02/wo-de-di-yi-tian/
-https://huanyying.github.io/2022/04/03/wc/
 https://huanyying.github.io/
+https://huanyying.github.io/tags/c/
+https://huanyying.github.io/tags/c/
 https://huanyying.github.io/tags/%E5%8D%9A%E5%AE%A2/
-https://huanyying.github.io/tags/%E7%94%9F%E6%B4%BB/

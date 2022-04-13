@@ -6,7 +6,7 @@
   <link href="https://huanyying.github.io/atom.xml" rel="self"/>
   
   <link href="https://huanyying.github.io/"/>
-  <updated>2022-04-04T07:47:04.634Z</updated>
+  <updated>2022-04-11T02:25:10.594Z</updated>
   <id>https://huanyying.github.io/</id>
   
   <author>
@@ -17,11 +17,60 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>c++</title>
+    <link href="https://huanyying.github.io/2022/04/05/cplus/"/>
+    <id>https://huanyying.github.io/2022/04/05/cplus/</id>
+    <published>2022-04-05T05:42:53.000Z</published>
+    <updated>2022-04-11T02:25:10.594Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1-内存分区模型&quot;&gt;&lt;a href=&quot;#1-内存分区模型&quot; class=&quot;headerlink&quot; title=&quot;1.内存分区模型&quot;&gt;&lt;/a&gt;1.内存分区模型&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;不同的生命周期&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4</summary>
+        
+      
+    
+    
+    
+    
+    <category term="c++" scheme="https://huanyying.github.io/tags/c/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于char</title>
+    <link href="https://huanyying.github.io/2022/04/04/c-yu-yan/"/>
+    <id>https://huanyying.github.io/2022/04/04/c-yu-yan/</id>
+    <published>2022-04-04T13:39:36.000Z</published>
+    <updated>2022-04-04T14:29:22.652Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;char&quot;&gt;&lt;a href=&quot;#char&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="c" scheme="https://huanyying.github.io/tags/c/"/>
+    
+  </entry>
+  
+  <entry>
     <title>git推送</title>
-    <link href="https://huanyying.github.io/2022/04/04/git-tui-song/"/>
-    <id>https://huanyying.github.io/2022/04/04/git-tui-song/</id>
+    <link href="https://huanyying.github.io/2022/04/04/bo-ke-bu-shu/"/>
+    <id>https://huanyying.github.io/2022/04/04/bo-ke-bu-shu/</id>
     <published>2022-04-04T07:44:57.000Z</published>
-    <updated>2022-04-04T07:47:04.634Z</updated>
+    <updated>2022-04-04T13:47:52.080Z</updated>
     
     
       
@@ -43,36 +92,11 @@
   </entry>
   
   <entry>
-    <title>吐槽</title>
-    <link href="https://huanyying.github.io/2022/04/03/tu-cao/"/>
-    <id>https://huanyying.github.io/2022/04/03/tu-cao/</id>
-    <published>2022-04-03T10:46:02.000Z</published>
-    <updated>2022-04-03T12:15:06.835Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;###项目&lt;/p&gt;
-&lt;p&gt;#链表排序太烦了&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    
-    <category term="生活" scheme="https://huanyying.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
     <title>文章命令</title>
-    <link href="https://huanyying.github.io/2022/04/03/wc/"/>
-    <id>https://huanyying.github.io/2022/04/03/wc/</id>
+    <link href="https://huanyying.github.io/2022/04/03/tui-song-dao-github/"/>
+    <id>https://huanyying.github.io/2022/04/03/tui-song-dao-github/</id>
     <published>2022-04-02T16:19:51.000Z</published>
-    <updated>2022-04-03T12:14:49.301Z</updated>
+    <updated>2022-04-04T13:48:24.806Z</updated>
     
     
       
