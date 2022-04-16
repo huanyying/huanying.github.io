@@ -6,7 +6,7 @@
   <link href="https://huanyying.github.io/atom.xml" rel="self"/>
   
   <link href="https://huanyying.github.io/"/>
-  <updated>2022-04-11T02:25:10.594Z</updated>
+  <updated>2022-04-16T03:34:42.431Z</updated>
   <id>https://huanyying.github.io/</id>
   
   <author>
@@ -17,9 +17,80 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>pat 乙级</title>
+    <link href="https://huanyying.github.io/2022/04/16/pat-yi-ji/pat-yi-ji/"/>
+    <id>https://huanyying.github.io/2022/04/16/pat-yi-ji/pat-yi-ji/</id>
+    <published>2022-04-16T03:17:34.000Z</published>
+    <updated>2022-04-16T03:34:42.431Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1008&quot;&gt;&lt;a href=&quot;#1008&quot; class=&quot;headerlink&quot; title=&quot;1008&quot;&gt;&lt;/a&gt;1008&lt;/h3&gt;&lt;p&gt;思路：&lt;/p&gt;
+&lt;p&gt;输出成要求的样子&lt;/p&gt;
+&lt;h5 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pat vs" scheme="https://huanyying.github.io/tags/pat-vs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vs解决方案与项目</title>
+    <link href="https://huanyying.github.io/2022/04/16/vs-jie-jue-fang-an-yu-xiang-mu/vs-jie-jue-fang-an-yu-xiang-mu/"/>
+    <id>https://huanyying.github.io/2022/04/16/vs-jie-jue-fang-an-yu-xiang-mu/vs-jie-jue-fang-an-yu-xiang-mu/</id>
+    <published>2022-04-16T02:35:46.000Z</published>
+    <updated>2022-04-16T02:37:28.331Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;visual</summary>
+        
+      
+    
+    
+    
+    
+    <category term="vs" scheme="https://huanyying.github.io/tags/vs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cin</title>
+    <link href="https://huanyying.github.io/2022/04/14/cplus/cin/"/>
+    <id>https://huanyying.github.io/2022/04/14/cplus/cin/</id>
+    <published>2022-04-14T10:01:22.000Z</published>
+    <updated>2022-04-14T10:10:42.157Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;转载&quot;&gt;&lt;a href=&quot;#转载&quot; class=&quot;headerlink&quot; title=&quot;转载:&quot;&gt;&lt;/a&gt;转载:&lt;/h4&gt;&lt;p&gt;1.简介&lt;br&gt;cin 是 C++ 标准输入流对象，即 istream 类的对象。cin</summary>
+        
+      
+    
+    
+    
+    
+    <category term="c++" scheme="https://huanyying.github.io/tags/c/"/>
+    
+  </entry>
+  
+  <entry>
     <title>c++</title>
-    <link href="https://huanyying.github.io/2022/04/05/cplus/"/>
-    <id>https://huanyying.github.io/2022/04/05/cplus/</id>
+    <link href="https://huanyying.github.io/2022/04/05/cplus/cplus/"/>
+    <id>https://huanyying.github.io/2022/04/05/cplus/cplus/</id>
     <published>2022-04-05T05:42:53.000Z</published>
     <updated>2022-04-11T02:25:10.594Z</updated>
     
@@ -44,8 +115,8 @@
   
   <entry>
     <title>关于char</title>
-    <link href="https://huanyying.github.io/2022/04/04/c-yu-yan/"/>
-    <id>https://huanyying.github.io/2022/04/04/c-yu-yan/</id>
+    <link href="https://huanyying.github.io/2022/04/04/c-yu-yan/c-yu-yan/"/>
+    <id>https://huanyying.github.io/2022/04/04/c-yu-yan/c-yu-yan/</id>
     <published>2022-04-04T13:39:36.000Z</published>
     <updated>2022-04-04T14:29:22.652Z</updated>
     
@@ -67,8 +138,8 @@
   
   <entry>
     <title>git推送</title>
-    <link href="https://huanyying.github.io/2022/04/04/bo-ke-bu-shu/"/>
-    <id>https://huanyying.github.io/2022/04/04/bo-ke-bu-shu/</id>
+    <link href="https://huanyying.github.io/2022/04/04/bo-ke-bu-shu/bo-ke-bu-shu/"/>
+    <id>https://huanyying.github.io/2022/04/04/bo-ke-bu-shu/bo-ke-bu-shu/</id>
     <published>2022-04-04T07:44:57.000Z</published>
     <updated>2022-04-04T13:47:52.080Z</updated>
     
@@ -93,8 +164,8 @@
   
   <entry>
     <title>文章命令</title>
-    <link href="https://huanyying.github.io/2022/04/03/tui-song-dao-github/"/>
-    <id>https://huanyying.github.io/2022/04/03/tui-song-dao-github/</id>
+    <link href="https://huanyying.github.io/2022/04/03/bo-ke-bu-shu/tui-song-dao-github/"/>
+    <id>https://huanyying.github.io/2022/04/03/bo-ke-bu-shu/tui-song-dao-github/</id>
     <published>2022-04-02T16:19:51.000Z</published>
     <updated>2022-04-04T13:48:24.806Z</updated>
     
@@ -116,10 +187,10 @@
   
   <entry>
     <title></title>
-    <link href="https://huanyying.github.io/2022/04/02/wo-de-di-yi-tian/"/>
-    <id>https://huanyying.github.io/2022/04/02/wo-de-di-yi-tian/</id>
+    <link href="https://huanyying.github.io/2022/04/02/bo-ke-bu-shu/wo-de-di-yi-tian/"/>
+    <id>https://huanyying.github.io/2022/04/02/bo-ke-bu-shu/wo-de-di-yi-tian/</id>
     <published>2022-04-02T12:35:47.642Z</published>
-    <updated>2022-04-03T12:14:57.565Z</updated>
+    <updated>2022-04-14T09:59:47.157Z</updated>
     
     
       
